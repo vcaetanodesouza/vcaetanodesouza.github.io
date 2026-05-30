@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <script type="text/javascript">
+    // Este script redireciona antes mesmo de o resto da página carregar
+    window.location.href = "https://portf-lio-vin-cius-caetano-178990734122.us-east1.run.app";
+  </script>
+  
+  <!-- Fallback (Caso o JS esteja desativado, o meta tag ainda funciona) -->
   <meta http-equiv="refresh" content="0; url=https://portf-lio-vin-cius-caetano-178990734122.us-east1.run.app">
-  <title>Vinícius Caetano - Portfolio</title>
+  
+  <title>Vinícius Caetano | Gestor de Projetos</title>
+
+  <style>
+    /* Isso garante que, se houver um milissegundo de atraso, o usuário veja 
+       apenas uma tela escura que combina com o site de IA, em vez de um "flash" branco */
+    body { background-color: #000000; margin: 0; padding: 0; }
+  </style>
 </head>
 <body>
-  <p>Redirecionando para o portfólio de Vinícius Caetano...</p>
+  <!-- Deixe o corpo totalmente vazio para não mostrar nada durante a transição -->
 </body>
 </html>
